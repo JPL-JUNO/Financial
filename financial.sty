@@ -1,6 +1,7 @@
 \usepackage{ctex}
 \usepackage{amsmath, amssymb}
 \usepackage{geometry}
+\geometry{hcentering}
 \usepackage{caption}
 \usepackage{tabularx}
 \usepackage{graphicx}
@@ -17,5 +18,9 @@
 \newcommand\tips[1]{\textcolor{green!50!black}{#1}}
 \newcommand\notes[1]{\textcolor{blue!50!black}{#1}}
 \newcommand\important[1]{\textcolor{red!90!black}{#1}}
+
+\usepackage{enumitem}
+% 去掉enumerate、itemize、description中的间隙
+\setlist{noitemsep, topsep=0pt}
 
 \usepackage{hyperref}
